@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="js.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $('.btn').mouseenter(function(){
+                    $('.btn').css('color','#FF5300');
+                });
+                $('.btn').mouseleave(function(){
+                    $('.btn').css('color','black');
+                });
+                
+
+        
+            });
+        </script>
+    </head>
+
+    <body class="body2">
+        <header id="navbar" style="height: 50px;">
+            <div class="container">
+                <div id="image">
+    
+                    <div >
+                        <h1 name="titre1">E-BOOK </h1>
+                        <H5> La librairie des professionnels</H5>
+    
+                    </div>
+        
+                </div>
+            
+                <nav id=nav>
+    
+                    <ul >
+    
+                            <li><a href="Home.html">HOME</a></li>
+                            <li><a href="Books.html">BOOKS</a></li>
+                            <li><a href="">New</a></li>
+                            <li><a href="">SALE</a></li>	
+                            <li><a href="About.html">About</a></li>	
+    
+                    </ul>
+
+                </nav>
+    
+            </div>
+    
+        </header>
+
+
+      <section>
+        <center>
+
+            <div class="login-box">
+                    <form name="form1">
+
+                
+                    <h1>Login</h1>
+
+                    <div class="textbox">
+                         <input type="text" placeholder="Email" name="Email" class="txt">
+                    </div>
+                
+                    <div class="textbox">
+                         <input type="password" placeholder="Password" name="Password" class="txt" > 
+                    </div>
+                
+                
+                        
+                    <input type="button" class="btn" value="Login" name="btn" onClick="javascript:validation();">
+                </form>
+            </div>
+                
+            </center>
+        </section>
+        
+    </body>
+</html>
